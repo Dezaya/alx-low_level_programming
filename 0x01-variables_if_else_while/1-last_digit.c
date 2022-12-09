@@ -1,9 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
- * main-assign a random number
+ * main -assign a random number
  * Return: 0
  */
 int main(void)
@@ -21,7 +20,7 @@ int main(void)
 	}
 	if (x == 0)
 	{
-		printf("and is 0")
+		printf("and is 0");
 	}
 	if (x < 6 && x != 0)
 	{
