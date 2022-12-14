@@ -1,14 +1,13 @@
 #include "main.h"
 /**
- * _abs - print the absolute value of an integer
- * @t: the interger to be printed
- * return: the absolute value of int
+ * _abs -computes the absolute value of an integer
+ * @t: the interger to b compute
+ * Return: The absolute value
  */
 int _abs(int t)
 {
 	if (t >= 0)
-	{
 		return (t);
-	}
-	return (-t);
+	else
+		return (-t);
 }
