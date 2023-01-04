@@ -2,13 +2,13 @@
 
 /**
  * _print_rev_recirsion - prints a string in reverse
- * @s: the string to be printed
- * Return: 0
+ * @s: pionter to string.
+ * Return: void.
  */
 
 void _print_rev_recursion(char *s)
 {
-	if (*s)
+	if (*s != '\0')
 	{
 		_print_rev_recursion(s + 1);
 		_putchar(*s);
