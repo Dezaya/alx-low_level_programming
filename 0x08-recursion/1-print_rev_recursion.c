@@ -3,6 +3,7 @@
 /**
  * _print_rev_recirsion - prints a string in reverse
  * @s: the string to be printed
+ * Return: 0
  */
 
 void _print_rev_recursion(char *s)
