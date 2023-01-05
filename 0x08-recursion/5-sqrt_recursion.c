@@ -7,7 +7,7 @@
  * Return: sqrt of number ot -1 for error.
  */
 
-int power_operation(int n, int c)
+int helperFunction(int num, int pSqrt)
 {
 	if ((pSqrt * pSqrt) == num)
 	{
