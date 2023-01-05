@@ -4,10 +4,10 @@
  * helperfunction - checks if sqrt of number exists
  * @num: number.
  * @pSqrt: possible sqrt of number.
- *Return: sqrt of number ot -1 for error.
+ * Return: sqrt of number ot -1 for error.
  */
 
-int helperFunction(int num, int pSqrt)
+int power_operation(int n, int c)
 {
 	if ((pSqrt * pSqrt) == num)
 	{
@@ -21,10 +21,12 @@ int helperFunction(int num, int pSqrt)
 			return (helperFunction(num, pSqrt + 1));
 	}
 }
+
 /**
  * _sqrt_recursion - returns the natural square root of a number.
  * @n: number to find sqrt of n.
- *Return: -1 if n does not have a natural sqrt.
+ * Return: return square root of n
+ * -1 if n does not have a natural sqrt.
  */
 
 int _sqrt_recursion(int n)

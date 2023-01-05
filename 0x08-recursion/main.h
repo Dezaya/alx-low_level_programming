@@ -14,6 +14,5 @@ int wildcmp(char *s1, char *s2);
 int helperFunction(int num, int pSqrt);
 int _lenght(char *s);
 int checkp(int i, int lg, char *s);
-int power_operation(int n, int c);
 
 #endif
